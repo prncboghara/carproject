@@ -1833,4 +1833,78 @@ p.section-paragraph.section-heading-black {
 .packages-tour button.slick-next.slick-arrow {
     background: #000;
 }
- 
+
+
+  /* slide start */  
+.slide-d {
+    display: flex;
+    margin-top: 10px;
+}
+h2.head-slide {
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.slide-d p {
+    margin-right: 20px;
+}
+
+span.car-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+ .slide-value {
+     width: 100%;
+    margin-bottom: 45px;
+}
+
+.slide-value .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slide-total-d {
+    border-top: 2px solid #356ad8;
+    padding: 15px;
+    text-align: center;
+}
+.slide-value .slider:hover {
+    opacity: 1;
+}
+
+.slide-value .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #356ad8;
+    cursor: pointer;
+}
+
+.slide-value .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #356ad8;
+    cursor: pointer;
+}
+
+.slide-total-d p {
+    background: #eee;
+    padding: 10px;
+    color: #356ad8;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.slide-total-d span {
+    font-size: 12px;
+}
+/* slide end */

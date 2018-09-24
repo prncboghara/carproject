@@ -919,7 +919,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="mamun-t-book-form">
+	<!-- 		<div class="mamun-t-book-form">
 				<h3>Book Tur</h3>
 				<form action="#">
 					<input type="text" class="mamunCustonBookForm" placeholder="Name" required>
@@ -931,8 +931,30 @@
 					<textarea class="text-area-class" placeholder="Massage"></textarea>
 					<a href="#" class="my-btn-1">Check Availability</a>
 					<button type="submit" class="my-btn-2">Book Now</button>
-				</form>
-			</div>
+				</form> -->
+				<h2 class="head-slide">2 Serie Active Tourer 218i 5D 103kW - BMW</h2>
+				<div class="slide-value">
+  					 <input type="range" min="1" max="100" value="90" class="slider" id="myRange">
+  							<div class="slide-d">
+  	  								<p><span class="car-name"> Bedrijfswagen </span></p>
+  	     							<p>  <span id="demo"> </span>mnd</p>
+  	     					</div>
+  	     		</div>
+
+				<div class="slide-value">
+  					<input type="range" min="1" max="100" value="90" class="slider" id="myRange2">
+ 						 <div class="slide-d">
+  	 						 <p><span class="car-name"> Bedrijfswagen  </span></p>
+  	     					 <p>  <span id="demo2"> </span>mnd</p>
+  	     				</div>
+  	     		</div>
+				<div class="slide-total">
+	                  <div class="slide-total-d">
+		                   <p>568,53 p.m.</p>
+		                      <span>euro’s, excl. btw. en brandstof</span>
+	                  </div>
+                </div>
+         </div>
 			<div class="my-contact-box">
 				<article>
 						<h3>Any Question ?</h3>
@@ -1124,6 +1146,22 @@
 	<!--Slick Slider JS-->
 	<script src="js/plugins/slick.min.js"></script>
 	<!--Main-->
+	<script>
+		var slider = document.getElementById("myRange");
+		var output = document.getElementById("demo");
+		output.innerHTML = slider.value;
+
+		slider.oninput = function() {
+		  output.innerHTML = this.value;
+		}
+		var slider = document.getElementById("myRange2");
+		var output = document.getElementById("demo2");
+		output.innerHTML = slider.value;
+
+		slider.oninput = function() {
+		  output.innerHTML = this.value;
+		}
+	</script>
 	<script src="js/custom.js"></script>
 
 </body>
