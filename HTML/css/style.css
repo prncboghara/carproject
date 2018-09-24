@@ -313,7 +313,7 @@ banner css start
 #banner {
     height: 100vh;
     position: relative;
-    background: url(../img/other/breadcrumb.jpg) no-repeat center;
+    background: url(../img/other/header.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -511,7 +511,7 @@ color: #242424!important;
  =========================================*/
 #popular_turs {
     padding: 92px 0px 100px;
-    background: url(../img/popular-turs/bg.jpg) no-repeat center;
+    background: url(../img/popular-turs/paralax.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
