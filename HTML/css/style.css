@@ -1817,3 +1817,18 @@ color: #356ad8;
     overflow: hidden;
     line-height: 100%;
 }
+
+h2.section-heading.section-heading-black {
+    color: #000 !important;
+}
+
+p.section-paragraph.section-heading-black {
+    color: #000 !important;
+}
+.packages-tour button.slick-prev.slick-arrow {
+    background: #000;
+}
+
+.packages-tour button.slick-next.slick-arrow {
+    background: #000;
+}
