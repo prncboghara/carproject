@@ -353,12 +353,13 @@ banner css start
 }
 
 #banner .banner_info h2 {
-    padding-bottom: 5px;
-    font-size: 70px;
+    padding-bottom: 10px;
+    font-size: 50px;
     font-weight: 600;
     font-style: italic;
     color: #356ad8;
     margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 #banner .banner_info p {
@@ -1832,3 +1833,4 @@ p.section-paragraph.section-heading-black {
 .packages-tour button.slick-next.slick-arrow {
     background: #000;
 }
+ 

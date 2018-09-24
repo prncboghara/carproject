@@ -1,0 +1,9 @@
+#popular_turs{
+	background: none !important;
+}
+#popular_turs .slick-prev, #popular_turs .slick-prev {
+	background: #000;
+}
+#popular_turs .slick-next{
+	background: #000;
+}
