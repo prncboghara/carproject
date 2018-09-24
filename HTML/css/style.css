@@ -144,17 +144,19 @@ a {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(128, 189, 255, 0);
 }
-
 .section-heading::before {
     position: absolute;
     content: " ";
     width: 80px;
     height: 5px;
-    top: 69px;
+    top: 58px;
     left: 50%;
     transform: translateX(-50%);
     background: #356ad8;
     border-radius: 30px;
+}
+.section-heading-big::before{
+    top: 100px;
 }
 
 
@@ -233,7 +235,7 @@ main menu css start
 }
 
 #main-menu .navbar {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     width: 100%;
@@ -673,7 +675,7 @@ popular Destinations Start
 Our Offers Area Start
 ================================= */
 #offers {
-    background: url(../img/offer/bg.jpg) no-repeat center;
+    /*background: url(../img/offer/bg.jpg) no-repeat center;*/
     background-size: cover;
     padding: 92px 0px 100px;
     position: relative;
@@ -1790,4 +1792,28 @@ color: #356ad8;
 
 .totop>a:hover {
     background-color: #0039ac;
+}
+/* Serch box configration */
+.register-box__licensePlate-wrap {
+    width: 100%;
+    border: none;
+    background-size: 30px !important;
+    /*max-width: 350px;*/
+    border-radius: 6px;
+    margin: 0 auto;
+    height: 38px;
+    background: #f7b918 url(https://www.ikwilvanmijnautoaf.nl/assets/img/kenteken_bg.png) no-repeat left;
+}
+.register-box__licensePlate {
+    font-weight: 700;
+    font-size: 23px;
+    margin-left: 32px;
+    height: 100%;
+    width: calc(100% - 32px);
+    color: rgba(0,0,0,.5);
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    overflow: hidden;
+    line-height: 100%;
 }

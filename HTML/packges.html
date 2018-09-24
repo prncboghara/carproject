@@ -61,7 +61,7 @@
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
-								<li class="nav-item dropdown">
+								<!-- <li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
 									aria-expanded="false">
 									Home
@@ -70,7 +70,10 @@
 										<a class="dropdown-item" href="index.html">Home1</a>
 										<a class="dropdown-item" href="index-2.html">Home2</a>
 								</div>
-							</li>
+							</li> -->
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
 								<li class="nav-item">
 									<a class="nav-link active" href="packges.html">Package</a>
 								</li>
@@ -78,7 +81,7 @@
 									<a class="nav-link" href="hotels.html">Hotel</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="ourvahicles.html">Vehicles</a>
+									<a class="nav-link" href="autobedrijven.html">Autobedrijven</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="blog.html">Blog</a>
@@ -126,8 +129,86 @@
 						</div>
 					</div>
 				</div>
+				<div class="row b-serch">
+					<div class="col-12">
+						<div class="h-seaerch-area">
+							<!-- Nav tabs -->
+							<nav>
+								<div class="nav nav-tabs" id="nav-tab" role="tablist">
+									<a class="nav-item nav-link normal-t active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+									  aria-controls="nav-home" aria-selected="true">
+										<i class="fa fa-search"></i> Particulier
+									</a>
+									<a class="nav-item nav-link advance" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+									  aria-controls="nav-profile" aria-selected="false">
+										<i class="fa fa-sliders"></i> Zakelijk
+									</a>
+								</div>
+							</nav>
+							<div class="tab-content" id="nav-tabContent">
+								<div class="tab-pane fade show normal active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+									<form>
+										<div class="form-row">
+											<div class="col-md-6 col-lg-3">
+												<input type="text" class="form-control" placeholder="Insert Keyword">
+											</div>
+											<div class="col-md-6 col-lg-3">
+												<select class="custom-select" id="inlineFormCustomSelectPref">
+													<option selected>All Destriations</option>
+													<option value="1">Destriations</option>
+													<option value="2">Destriations</option>
+													<option value="3">Destriations</option>
+												</select>
+											</div>
+											<div class="col-md-6 col-lg-3">
+												<select class="custom-select mamunur_rashid_form_sm">
+													<option selected>All Typologes</option>
+													<option value="1">Typologes</option>
+													<option value="2">Typologes</option>
+													<option value="3">Typologes</option>
+												</select>
+											</div>
+											<div class="col-md-6 col-lg-3">
+												<button type="submit" class="form-control h-serch mamunur_rashid_form_sm">SEARCH</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="tab-pane fade advance-c" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+									<form>
+										<div class="form-row">
+											<div class="col-md-6 col-lg-3">
+												<input type="text" class="form-control" placeholder="Insert Keyword">
+											</div>
+											<div class="col-md-6 col-lg-3">
+												<select class="custom-select">
+													<option selected>All Destriations</option>
+													<option value="1">Destriations</option>
+													<option value="2">Destriations</option>
+													<option value="3">Destriations</option>
+												</select>
+											</div>
+											<div class="col-md-6 col-lg-3">
+												<select class="custom-select mamunur_rashid_form_sm">
+													<option selected>All Typologes</option>
+													<option value="1">Typologes</option>
+													<option value="2">Typologes</option>
+													<option value="3">Typologes</option>
+												</select>
+											</div>
+											<div class="col-md-6 col-lg-3">
+												<button type="submit" class="form-control h-serch  mamunur_rashid_form_sm">SEARCH</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
+
 		<!-- =========== banner end =========== -->
 
 
@@ -144,15 +225,6 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
 								</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
@@ -170,16 +242,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -196,16 +259,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -222,16 +276,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -248,16 +293,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -274,16 +310,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -300,16 +327,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -326,16 +344,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
@@ -352,16 +361,7 @@
 							<article>
 								<h4>City TouTrs In Europe, Paris</h4>
 								<div class="b-c">
-									<ul>
-										<li>
-											<i class="fa fa-clock-o"></i> 7 Days</li>
-										<li>
-											<span class="span">|</span>
-										</li>
-										<li>
-											<i class="fa fa-user"></i> 3 People</li>
-									</ul>
-								</div>
+							</div>
 								<p>There are many variations of passages of Lorem Ipsum available but the majority to have injected humour.</p>
 								<div class="footer d-flex justify-content-between">
 									<a href="packagedetails.html">View Details</a>
