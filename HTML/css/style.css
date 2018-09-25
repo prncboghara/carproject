@@ -286,7 +286,13 @@ main menu css start
     -o-transition: all .3s;
     transition: all .3s;
 }
-
+.mamunur_rashid_top_account_btn{
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 50px;
+}.mamunur_rashid_top_account_btn:hover{
+    color: #fff;
+}
 .mamunur_rashid_top_book_btn:hover {
     color: #fff;
     background: #356ad8;
@@ -624,7 +630,7 @@ popular Destinations Start
     color: #fff;
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
-    padding: 10px 20px 30px;
+    padding: 10px 20px 15px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
