@@ -212,7 +212,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="c-box">
-							<div class="img">
+							<div class="img">				
 								<img class="img-fluid" src="img/popular-turs/SUV.jpg" alt="">
 							</div>
 							<!-- <article>
@@ -371,7 +371,97 @@
 							<p>DepartureTaxes, Breakfast</p>
 						</div>
 					</li>
-
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Carrosserievorm</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Aantal deuren</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Aantal zitplaatsen</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Bagageruimte</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Bagageruimte neergeklapt</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Acceleratie0-100 km/u</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Vermogen</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Koppel</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Laadvermogen</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Aanhanger gewicht</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>EnergielabelD</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>CO2 uitstoot132 gr/km</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
+					<li class="l-c1">
+						<div class="left-l">
+							<h5>Gemiddeld verbruik</h5>
+						</div>
+						<div class="right-r">
+						</div>
+					</li>
 				</ul>
 					</div>
 				</div>
@@ -932,25 +1022,34 @@
 					<a href="#" class="my-btn-1">Check Availability</a>
 					<button type="submit" class="my-btn-2">Book Now</button>
 				</form> -->
+
+				<!-- Right sidebar -->
 				<h2 class="head-slide">2 Serie Active Tourer 218i 5D 103kW - BMW</h2>
 				<div class="slide-value">
-  					<input type="range" min="1" max="100" value="90" class="slider" id="slider-1">
+  					<input type="range" min="1" max="100" value="15" class="slider" id="slider-1">
 					<div class="slide-d">
-								<p><span class="car-name"> Bedrijfswagen </span></p>
- 							<p>  <span id="demo"> </span>mnd</p>
+						<p><span class="car-name"> Aanbetaling </span></p>
+						<p>&euro; <span id="demo"> </span></p>
  					</div>
   	     		</div>
 				<div class="slide-value">
-  					<input type="range" min="1" max="100" value="90" class="slider" id="myRange2">
+  					<input type="range" min="1" max="100" value="15" class="slider" id="myRange2">
  						 <div class="slide-d">
-  	 						 <p><span class="car-name"> Bedrijfswagen  </span></p>
-  	     					 <p>  <span id="demo2"> </span>mnd</p>
+  	 						<p><span class="car-name"> Looptijd 72 maanden  </span></p>
+							<p>&euro; <span id="demo2"> </span></p>
+  	     				</div>
+  	     		</div>
+  	     		<div class="slide-value">
+  					<input type="range" min="1" max="100" value="10" class="slider" id="myRange3">
+ 						 <div class="slide-d">
+  	 						 <p><span class="car-name"> Slottermijn  </span></p>
+  	     					 <p>&euro; <span id="demo3"></span></p>
   	     				</div>
   	     		</div>
 				<div class="slide-total">
 	                  <div class="slide-total-d">
-		                   <p>568,53 p.m.</p>
-		                      <span>euro’s, excl. btw. en brandstof</span>
+		                   	<p>&euro;  568,53 p.m.</p>
+		                    <span>euro’s, excl. btw. en brandstof</span>
 	                  </div>
                 </div>
          </div>
@@ -1148,18 +1247,27 @@
 	<script>
 		var slider1 = document.getElementById("slider-1");
 		var output1 = document.getElementById("demo");
+		var slider2 = document.getElementById("myRange2");
+		var output2 = document.getElementById("demo2");
+		var slider3 = document.getElementById("myRange3");
+		var output3 = document.getElementById("demo3");
+		// Slider 1
 		output1.innerHTML = slider1.value;
 
 		slider1.oninput = function() {
 		  output1.innerHTML = this.value;
 		}
+		// slider 2
+		output2.innerHTML = slider2.value;
 
-		var slider = document.getElementById("myRange2");
-		var output2 = document.getElementById("demo2");
-		output2.innerHTML = slider.value;
-
-		slider.oninput = function() {
+		slider2.oninput = function() {
 		  output2.innerHTML = this.value;
+		}
+		// Slider 3
+		output3.innerHTML = slider3.value;
+
+		slider3.oninput = function() {
+		  output3.innerHTML = this.value;
 		}
 	</script>
 	<script src="js/custom.js"></script>

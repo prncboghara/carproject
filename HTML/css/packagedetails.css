@@ -1,9 +1,21 @@
 #popular_turs{
 	background: none !important;
+	padding: 0px 0px 0px !important;
 }
 #popular_turs .slick-prev, #popular_turs .slick-prev {
 	background: #000;
 }
 #popular_turs .slick-next{
 	background: #000;
+}
+#packdetails{
+	padding: 10px 0px 70px !important;
+}
+.slick-slide{
+	padding: 0px !important;
+}
+@media (max-width: 768px){}
+	#popular_turs {
+	    top: 0px !important;
+	}
 }

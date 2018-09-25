@@ -311,7 +311,7 @@ main menu css start
 banner css start
 ======================================= */
 #banner {
-    height: 100vh;
+    height: 80vh;
     position: relative;
     background: url(../img/other/header.jpg) no-repeat center;
     background-size: cover;
@@ -328,7 +328,7 @@ banner css start
 }
 
 #banner .banner_slider {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
 }
@@ -624,7 +624,7 @@ popular Destinations Start
     color: #fff;
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
-    padding: 40px 20px 40px;
+    padding: 10px 20px 30px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
