@@ -311,7 +311,7 @@ main menu css start
 banner css start
 ======================================= */
 #banner {
-    height: 80vh;
+    height: 100vh;
     position: relative;
     background: url(../img/other/header.jpg) no-repeat center;
     background-size: cover;
@@ -328,7 +328,7 @@ banner css start
 }
 
 #banner .banner_slider {
-    height: 80vh;
+    height: 95vh;
     width: 100%;
     position: relative;
 }

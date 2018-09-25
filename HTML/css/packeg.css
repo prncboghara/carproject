@@ -396,8 +396,33 @@ line-height: 30px;
 #packdetails .nav-tabs .nav-link:hover{
    border-color: #ffffff00 #e9ecef00 #dee2e600; 
 }
+
+/* Filter Buttons  */
+
+#filterSection .list-inline-item button{
+
+}
+#filterSection .dropdown-menu-list{
+  position: absolute;
+  display: block;
+  z-index: 1;
+  right: 15px;
+  padding: 15px;
+  background: whitesmoke;
+}
+#filterSection .filter-row{
+  border-bottom: 1px solid #dddddd;  
+}
 @media(max-width: 768px){
   #popular_turs{
     top:150px; 
+  }
+  #filterSection{
+    top: 200px;
+    position: relative;
+    z-index: 1;
+  }
+  #filterSection .list-inline-item{
+    padding: 5px;
   }
 }
