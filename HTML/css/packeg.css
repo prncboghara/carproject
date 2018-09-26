@@ -210,7 +210,7 @@ font-size: 12px;
 display: inline-block;
 }
 #packdetails .post{
-  margin-top: 50px;
+  margin-top: 0px;
 }
 #packdetails .post .date li{
  margin-right: 10px;
@@ -248,7 +248,7 @@ float: left;
 }
 
 #packdetails .list{
-  padding-top: 50px;
+  padding-top: 0px;
 }
 #packdetails .list .l-c1{
   background: #f6f6f6;
@@ -398,7 +398,12 @@ line-height: 30px;
 }
 
 /* Filter Buttons  */
-
+#filterSection{
+  z-index: 1;
+}
+#filterSection .filter-title{
+  color: #000;
+}
 #filterSection .list-inline-item button{
 
 }
@@ -410,17 +415,10 @@ line-height: 30px;
   padding: 15px;
   background: whitesmoke;
 }
-#filterSection .filter-row{
-  border-bottom: 1px solid #dddddd;  
-}
+
 @media(max-width: 768px){
   #popular_turs{
     top:150px; 
-  }
-  #filterSection{
-    top: 200px;
-    position: relative;
-    z-index: 1;
   }
   #filterSection .list-inline-item{
     padding: 5px;
